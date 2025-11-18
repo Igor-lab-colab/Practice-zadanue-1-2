@@ -1,0 +1,4 @@
+bites_input = int(input("Введите количество байт: "))
+bits_output = bites_input * 8
+print(f"Введенное количество байт: {bites_input}")
+print(f"Количество бит: {bits_output}")
