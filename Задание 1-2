@@ -1,1 +1,51 @@
+first_num = 9  
+second_num = 7.8  
+my_str = "start"  
 
+print("Шаг 2:")
+print(f"first_num: {first_num}")
+print(f"second_num: {second_num}")
+print(f"my_str: {my_str}")
+print("-" * 20)
+
+first_num = 5.2
+
+print("Шаг 4:")
+print(f"Значение first_num: {first_num}")
+print(f"Тип данных first_num: {type(first_num)}")
+print("-" * 20)
+
+third_num = first_num + second_num
+
+print("Шаг 6:")
+print(f"Значение third_num: {third_num}")
+print(f"Тип данных third_num: {type(third_num)}")
+print("-" * 20)
+
+first_num += 5
+second_num += first_num
+
+print("Шаг 8:")
+print(f"Измененное first_num: {first_num}")
+print(f"Измененное second_num: {second_num}")
+print("-" * 20)
+
+second_num = int(second_num)
+
+print("Шаг 10:")
+print(f"Новое first_num: {first_num}")
+print(f"Новое second_num (целое): {second_num}")
+print("-" * 20)
+
+my_str += "&stop"
+
+print("Шаг 12:")
+print(f"Измененная строка my_str: {my_str}")
+print("-" * 20)
+
+my_str *= 5
+# Эквивалентно: my_str = my_str * 5
+
+print("Шаг 14:")
+print(f"Результат умножения строки my_str на 5:\n{my_str}")
+print("-" * 20)
