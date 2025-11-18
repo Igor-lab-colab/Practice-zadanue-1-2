@@ -1,3 +1,4 @@
+Задание 1
 first_num = 9
 second_num = 7.8
 my_str = "start"
@@ -23,4 +24,44 @@ print(f"{my_str}'")
 print("-" * 20)
 my_str *= 5
 print(my_str)
-print("-" * 20)
+
+#Задание 2
+path = "C:\\Users\\MainAdmin\\Desktop\\programs"
+print(f"Путь: {path}")
+path += "\\game.exe"
+print(f"Полный путь к файлу: {path}")
+path = "C:\\Users\\MainAdmin\\Desktop\\files"
+path += "\\picture.png"
+print(f"Полный путь к изображению: {path}")
+path = "C:\\Games\\city simulator"
+path *= 2
+print(f"Error path: {path}")
+
+#Задание 3
+num_1 = 7
+num_2 = 10
+num_3 = 4
+summ = num_1 + num_2 + num_3
+print(f"Сумма всех целых чисел: {summ}")
+num_1 = 7.9
+num_2 = 21.3
+num_3 = float(num_3) 
+summ = num_1 + num_2 + num_3
+print(f"Сумма всех нецелых чисел: {summ}")
+num_1 = 130
+num_2 = 4
+num_3 = 2
+multiplying = num_1 * num_2 * num_3
+print(f"Умножение всех чисел: {multiplying}")
+division = num_1 / num_2 / num_3
+print(f"Деление: {division}")
+num_1 = 2
+num_2 = 3
+num_3 = 4
+degree = num_1 ** num_2 ** num_3
+print(f"Числа в степени: {degree}")
+num_1 = 2
+num_2 = 8
+num_3 = 5
+math_result = ((43 + num_1) + (num_2 + 67) - (num_3 * 2)) // 2
+print(f"Результат математической операции: {math_result}")
